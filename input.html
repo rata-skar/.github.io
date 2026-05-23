@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хуники — скачать игру</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 30px;
+            padding: 50px 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #ff4d4d, #f9cb28);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 800;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #a0a0c0;
+            letter-spacing: 1px;
+        }
+        .description {
+            margin-bottom: 40px;
+            line-height: 1.6;
+            font-size: 1rem;
+            color: #c0c0e0;
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+            color: white;
+            border: none;
+            padding: 18px 45px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(255, 77, 77, 0.4);
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+        }
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(255, 77, 77, 0.6);
+            background: linear-gradient(45deg, #ff6b6b, #ff4d4d);
+        }
+        .download-btn:active {
+            transform: translateY(1px);
+        }
+        .version {
+            font-size: 0.9rem;
+            color: #8888aa;
+            margin-top: 10px;
+        }
+        .requirements {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #7777aa;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 20px;
+        }
+        img.logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 2.8rem;
+            }
+            .container {
+                padding: 35px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Можно вставить логотип -->
+        <!-- <img src="logo.png" alt="Логотип" class="logo"> -->
+        <h1>ХУНИКИ</h1>
+        <p class="subtitle">Бесконечное сражение с волнами врагов</p>
+        <p class="description">
+            Защитите башню, используя мощное оружие и уникальную способность «Щит башни».
+            Красочная 2D‑графика, динамичный геймплей и поддержка русского, английского и немецкого языков.
+            Проверьте свою выносливость в режиме 100 волн!
+        </p>
+        <a href="Хуники_v1.0.zip" class="download-btn" download>СКАЧАТЬ ИГРУ</a>
+        <p class="version">Версия 1.0 | Размер: ~80 МБ</p>
+        <div class="requirements">
+            <p>Windows 10/11 | Python не требуется (всё включено)</p>
+            <p>Управление: WASD + мышь + E</p>
+        </div>
+    </div>
+</body>
+</html>
